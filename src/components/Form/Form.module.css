@@ -1,0 +1,92 @@
+.container_input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.Input_Form {
+    width: 80%;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Input_Title {
+    font-size: 15px;
+    font-weight: 200;
+    width: 20%;
+}
+
+.Form_Register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Container_Button{
+    display: inline-flex;
+}
+
+.Container_Button > button {
+    margin: 0 10px;
+}
+
+.Button_Submit {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    border: black 1px solid;
+    color: white;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .4s;
+    border-radius: 5px;
+    font-style: normal;
+  }
+  
+  .svgIcon {
+    width: 16px;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .Button_Submit::before {
+    width: 128px;
+    height: 100px;
+    position: absolute;
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: .4s;
+    color: black;
+    mix-blend-mode: difference;
+  }
+  
+  .Button_Submit:hover::before {
+    transform: translate(100%,-50%);
+    border-radius: 0;
+  }
+
+.Button_Cancel {
+  border: black 1px solid;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  z-index: 1;
+  display: flex;
+  background: #000;
+  position: relative;
+  border-radius: 5px;
+}

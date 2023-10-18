@@ -1,0 +1,58 @@
+.list_container {
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItem {
+    width: 100%;
+    background-color: #12343b;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 15px;
+}
+
+.delete_button {
+    width: 50%;
+}
+
+.edit_button {
+    width: 50%;
+}
+
+.Div_Gasto{
+    background: red;
+    color: white;
+    border:red;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.Div_Ingreso{
+    background: #55ad55;
+    color: white;
+    border:#55ad55;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.button_group {
+    display: flex;
+    width: 15%;
+}
+
+.container_name{
+    width: 50%;
+}
+
+.container_amount{
+    width: 30%; 
+}

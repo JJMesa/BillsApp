@@ -1,0 +1,21 @@
+.Container_Balance {
+    text-align: center;
+    display: flex;
+}
+
+.Column_Balance {
+    width: 50%;
+    height: 35px;
+    font-size: large;
+    display: inline-flex;
+    padding: 0px 15px 20px 15px;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.Column_Balance input {
+    height: 1.25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

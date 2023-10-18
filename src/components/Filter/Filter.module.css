@@ -1,0 +1,30 @@
+.container_filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    font-size: smaller;
+}
+
+.input_filter {
+    width: 40%;
+    border : 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container_filter label{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.checkbox_filter {
+    width: 20%;
+    border-radius: 50px;
+}
